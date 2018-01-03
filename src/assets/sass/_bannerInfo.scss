@@ -1,0 +1,28 @@
+@import "variables.scss";
+
+.banner {
+  background-color: $black;
+  padding: 130px 0 0 0;
+  span {
+    display: block;
+    color: $red;
+    text-align: center;
+    font-family: $passionOne;
+  }
+  .line1 {
+    font-size: 350px;
+    line-height: 0.7em;
+  }
+  .line2 {
+    font-size: 80px;
+    line-height: 0.5em;
+  }
+  .line3 {
+    font-size: 120px;
+    line-height: 1em;
+  }
+
+  .segment {
+    background-color: $black;
+  }
+}

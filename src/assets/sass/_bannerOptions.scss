@@ -1,0 +1,18 @@
+@import "variables.scss";
+
+.options {
+  background-color: $black;
+  padding: 210px 0 0 0;
+
+  .button {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    font-family: $passionOne;
+    font-size: 30px;
+  }
+
+  .segment {
+    background-color: $black;
+  }
+}

@@ -1,0 +1,20 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"../sass/main.scss",
+		"../sass/_global.scss",
+		"../sass/_variables.scss",
+		"../sass/_bannerInfo.scss",
+		"../sass/_bannerOptions.scss"
+	],
+	"sourcesContent": [
+		"@import \"global.scss\";\n@import \"bannerInfo.scss\";\n@import \"bannerOptions.scss\";\n",
+		"@import \"variables.scss\";\n\nbody {\n  background-color: $black;\n  font-family: $passionOne;\n}\n\n\n",
+		"/*\n * Varibales to be used in the project\n */\n\n/////////////////////////////////////////\n$black: #23262f;\n$red  : #fe2e33;\n\n\n/////////////////////////////////////////\n$passionOne: 'Passion One';\n",
+		"@import \"variables.scss\";\n\n.banner {\n  background-color: $black;\n  padding: 130px 0 0 0;\n  span {\n    display: block;\n    color: $red;\n    text-align: center;\n    font-family: $passionOne;\n  }\n  .line1 {\n    font-size: 350px;\n    line-height: 0.7em;\n  }\n  .line2 {\n    font-size: 80px;\n    line-height: 0.5em;\n  }\n  .line3 {\n    font-size: 120px;\n    line-height: 1em;\n  }\n\n  .segment {\n    background-color: $black;\n  }\n}\n",
+		"@import \"variables.scss\";\n\n.options {\n  background-color: $black;\n  padding: 210px 0 0 0;\n\n  .button {\n    display: block;\n    margin: 20px auto;\n    text-align: center;\n    font-family: $passionOne;\n    font-size: 30px;\n  }\n\n  .segment {\n    background-color: $black;\n  }\n}\n"
+	],
+	"names": [],
+	"mappings": "AEAA;;GAEG;ADAH,AAAA,IAAI,CAAC;EACH,gBAAgB,ECEV,OAAO;EDDb,WAAW,ECMA,aAAa,GDLzB;;ACLD;;GAEG;ACAH,AAAA,OAAO,CAAC;EACN,gBAAgB,EDEV,OAAO;ECDb,OAAO,EAAE,WAAW,GAuBrB;EAzBD,AAGE,OAHK,CAGL,IAAI,CAAC;IACH,OAAO,EAAE,KAAK;IACd,KAAK,EDDD,OAAO;ICEX,UAAU,EAAE,MAAM;IAClB,WAAW,EDCF,aAAa,GCAvB;EARH,AASE,OATK,CASL,MAAM,CAAC;IACL,SAAS,EAAE,KAAK;IAChB,WAAW,EAAE,KAAK,GACnB;EAZH,AAaE,OAbK,CAaL,MAAM,CAAC;IACL,SAAS,EAAE,IAAI;IACf,WAAW,EAAE,KAAK,GACnB;EAhBH,AAiBE,OAjBK,CAiBL,MAAM,CAAC;IACL,SAAS,EAAE,KAAK;IAChB,WAAW,EAAE,GAAG,GACjB;EApBH,AAsBE,OAtBK,CAsBL,QAAQ,CAAC;IACP,gBAAgB,EDpBZ,OAAO,GCqBZ;;AD1BH;;GAEG;AEAH,AAAA,QAAQ,CAAC;EACP,gBAAgB,EFEV,OAAO;EEDb,OAAO,EAAE,WAAW,GAarB;EAfD,AAIE,QAJM,CAIN,OAAO,CAAC;IACN,OAAO,EAAE,KAAK;IACd,MAAM,EAAE,SAAS;IACjB,UAAU,EAAE,MAAM;IAClB,WAAW,EFAF,aAAa;IECtB,SAAS,EAAE,IAAI,GAChB;EAVH,AAYE,QAZM,CAYN,QAAQ,CAAC;IACP,gBAAgB,EFVZ,OAAO,GEWZ"
+}

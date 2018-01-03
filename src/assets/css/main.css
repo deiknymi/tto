@@ -1,0 +1,46 @@
+/*
+ * Varibales to be used in the project
+ */
+body {
+  background-color: #23262f;
+  font-family: "Passion One"; }
+
+/*
+ * Varibales to be used in the project
+ */
+.banner {
+  background-color: #23262f;
+  padding: 130px 0 0 0; }
+  .banner span {
+    display: block;
+    color: #fe2e33;
+    text-align: center;
+    font-family: "Passion One"; }
+  .banner .line1 {
+    font-size: 350px;
+    line-height: 0.7em; }
+  .banner .line2 {
+    font-size: 80px;
+    line-height: 0.5em; }
+  .banner .line3 {
+    font-size: 120px;
+    line-height: 1em; }
+  .banner .segment {
+    background-color: #23262f; }
+
+/*
+ * Varibales to be used in the project
+ */
+.options {
+  background-color: #23262f;
+  padding: 210px 0 0 0; }
+  .options .button {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    font-family: "Passion One";
+    font-size: 30px; }
+  .options .segment {
+    background-color: #23262f; }
+
+/*# sourceMappingURL=main.css.map */
